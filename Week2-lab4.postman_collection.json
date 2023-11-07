@@ -1,0 +1,111 @@
+{
+	"info": {
+		"_postman_id": "034e545b-0b7c-4282-8387-0dd63cd35bb1",
+		"name": "Week2-lab4",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30416467"
+	},
+	"item": [
+		{
+			"name": "Get All Pets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/pets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Pet by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/pets/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pets",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Pets by Species",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/pets/species/Cat",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pets",
+						"species",
+						"Cat"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Pets by Age",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/pets/age/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pets",
+						"age",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Pet Count",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/pets/count",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pets",
+						"count"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
